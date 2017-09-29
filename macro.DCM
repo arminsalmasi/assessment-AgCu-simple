@@ -1,0 +1,27 @@
+                                                                                                                                                                                                                                               
+go da
+app us Ag-Cu-embryo.TDB
+
+def-sys
+ag cu
+get
+
+
+go poly
+s-c n=1 p=1e5 t=500 x(cu)=0.5
+c-e
+s-a-v 1 t 300 2000 1
+ 
+ 
+s-a-v 2 x(cu) 0 1 0.01
+ 
+map
+
+
+post
+s-d-a x m-f cu
+s-d-a y t
+s-l
+b
+pl
+set-inter
